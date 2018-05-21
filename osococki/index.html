@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BomberMAN</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/wheel.css">
+  <link type="text/css" rel="stylesheet" href="css/media-queries.css">
+  <meta name="description" content="">
+</head>
+<body>
+  <header>
+    <nav class="four">
+      <ul>
+        <li><a href="#ololo" id="linkHome"><i class="fa fa-home fa-fw"></i>Главная</a></li>
+        <li><a href="#ololo" id="linkGame">Игра</a></li>
+        <li><a href="#ololo" id="linkAbout">О сайте</a></li>
+      </ul>
+    </nav>
+  </header>
+  <nav><!--Тут будет некоторый функционал по игре-->
+  </nav>
+  <main id="main">
+    <section id="main-page" class="hide">
+      <div class="js">
+        JavaScript® (часто просто JS) — это легковесный, интерпретируемый или JIT-компилируемый,
+        объектно-ориентированный язык с функциями первого класса. Наиболее широкое применение находит
+        как язык сценариев веб-страниц, но также используется и в других программных продуктах, например,
+        node.js или Apache CouchDB. JavaScript это прототипно-ориентированный, мультипарадигменный язык с
+        динамической типизацией, который поддерживает объектно-ориентированный, императивный и декларативный
+        (например, функциональное программирование) стили программирования.
+      </div>
+      <div class="my-js">
+        Собственно об этом и сайт! Переходим на вкладку Игра и смотрим какие возможности даёт
+        нам JavaScript!
+      </div>
+    </section>
+    <section id="game" class="hide">
+      <div id="spinner" class="cssload-container">
+        <div class="cssload-whirlpool"></div>
+      </div>
+      <p id="press-enter">
+        Press Enter to <span>start</span>!
+      </p>
+      <p id="timer" class="timer"><span>150</span> sec.</p><!--150 вынести в статику либо переменную TArea-->
+    </section>
+    <section id="game-rules" class="hide">
+      <ul class="border">
+        <li class="rules-list">Press Enter to start new game!</li>
+        <li class="rules-list">Use arrows to move your NPC!</li>
+        <li class="rules-list">Use space to plant the bomb!</li>
+        <li class="rules-list">Destroy all the blocks until the timer expires!</li>
+      </ul>
+    </section>
+    <section id="result" class="hide">
+      <form name="frm" method="POST" action="">
+        <label for="name">Your name: </label>
+        <input type="text" name="name" id="name" value="" /> <br>
+        <label for="score">Your score: </label>
+        <input type="text" name="score" id="score" value="" disabled/> <br>
+        <input type="submit" name="Save" id="save" value="Save" />
+      </form>
+    </section>
+    <section id="about" class="hide">
+      <div class="bests">
+        <h5>Лучший результат:</h5>
+      </div>
+      <div></div>
+    </section>
+  </main>
+  <footer>
+  </footer>
+  <script src="js/libs/jquery-3.3.1.js"></script>
+  <script src="js/area.js"></script>
+  <script src="js/gamer.js"></script>
+  <script src="js/bomb.js"></script>
+  <script src="js/AJAXStorage.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

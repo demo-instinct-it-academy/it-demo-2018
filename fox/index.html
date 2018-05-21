@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,
+        width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <title>Arcanoid</title>
+  <link href="css/arcanoid.css" rel="stylesheet">
+</head>
+<body>
+  <section id="main">
+    <h1><a>arcanoid</a></h1>
+    <ul>
+      <li>
+        <a class="links green">play</a>
+      </li>
+      <li>
+        <a class="links green">results</a>
+      </li>
+      <li>
+        <a class="links green">about</a>
+      </li>
+    </ul>
+  </section>
+  <section id="play">
+    <h1><a>arcanoid</a></h1>
+    <ul>
+      <li>
+        <a class="links big green">main</a>
+      </li>
+      <li>
+        <a class="links big green">results</a>
+      </li>
+      <li>
+        <a class="links big green">about</a>
+      </li>
+    </ul>
+    <div id="gameArea">
+      <canvas id="game" class="game"></canvas>
+      <div class="ctrl-btns">
+        <input type="button" id="left" class="btn blue left" value="&#9668;">
+        <input type="button" id="start" class="btn blue start" value="start">
+        <input type="button" id="right" class="btn blue right" value="&#9658;">
+      </div>
+    </div>
+  </section>
+  <section id="results">
+    <h1><a>arcanoid</a></h1>
+    <ul>
+      <li>
+        <a class="links big green">main</a>
+      </li>
+      <li>
+        <a class="links big green">play</a>
+      </li>
+      <li>
+        <a class="links big green">about</a>
+      </li>
+    </ul>
+    <ul id="resultList">
+    </ul>
+  </section>
+  <section id="about">
+    <h1><a>arcanoid</a></h1>
+    <ul>
+      <li>
+        <a class="links big green">main</a>
+      </li>
+      <li>
+        <a class="links big green">play</a>
+      </li>
+      <li>
+        <a class="links big green">results</a>
+      </li>
+    </ul>
+    <div class="description">
+      <p>
+        Welcome to my final course project named Arcanoid, it's a clone of original game Arkanoid.
+      <br>
+        It is an arcade game developed by Taito in 1986. Arkanoid is an update of the early ball
+        and paddle video games — and specifically of Atari's 1978 classic, Super Breakout — in which the player takes
+        control of a paddle at the bottom of the screen and must use it to deflect a ball into rows of bricks at the
+        top of the screen, thus destroying them and, eventually, clearing the screen to progress to the next level.
+      </p>
+    </div>
+  </section>
+  <script src="./libs/jquery-3.2.1.min.js"></script>
+  <script src="js/SPA.js"></script>
+  <script src="js/game-config.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/paddle.js"></script>
+  <script src="js/ball.js"></script>
+  <script src="js/results.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

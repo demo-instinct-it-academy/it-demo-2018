@@ -1,0 +1,138 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+* {
+    user-select: none;
+}
+
+#myCanvas {
+    background-color: #f4f4f4;
+}
+
+#menu {
+    width: 100%;
+    height: 100vh;
+    min-height: 250px;
+    background-image: url("../img/backgrounds/menu-background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    width: 100%;
+    height: 100vh;
+    min-height: 250px;
+    background-image: url("../img/backgrounds/menu-background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#records {
+    width: 100vw;
+    height: 100vh;
+    min-height: 420px;
+    background-image: url("../img/backgrounds/menu-background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#game {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+}
+
+.start-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.pause-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+#game a {
+    text-decoration: none;
+}
+
+.records {
+    background: url("../img/backgrounds/records-background.png") no-repeat;
+    width: 416px;
+    height: 408px;
+    font-family: "Comic Sans MS", sans-serif;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.about {
+    background-image: url("../img/backgrounds/about-background.png");
+    width: 263px;
+    height: 263px;
+    font-family: "Comic Sans MS", sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.records img {
+    position: absolute;
+    left: 189px;
+    bottom: 7px;
+}
+
+.about img {
+    position: absolute;
+    left: 93px;
+    bottom: 7px;
+}
+
+.about p {
+    margin-top: 20px;
+    padding: 0;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.options {
+    list-style: none;
+    width: 160px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options a {
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}

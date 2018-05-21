@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Dimbo';
+    src: url('subset-DimboRegular.eot');
+    src: url('subset-DimboRegular.eot?#iefix') format('embedded-opentype'),
+        url('subset-DimboRegular.woff2') format('woff2'),
+        url('subset-DimboRegular.woff') format('woff'),
+        url('subset-DimboRegular.ttf') format('truetype'),
+        url('subset-DimboRegular.svg#DimboRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

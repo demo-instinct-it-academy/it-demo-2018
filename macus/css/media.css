@@ -1,0 +1,187 @@
+@media only screen and (max-width : 1200px) {
+   .controls-wrap {
+      display: block;
+   }
+  .btn-pause {
+    left: 5px;
+    top: 5px;
+    width: 60px;
+    height: 60px;
+    background-position: -104px -345px;
+  }
+}
+
+@media only screen and (max-width : 991px) {
+ .btn-pause {
+    left: 5px;
+    top: 5px;
+    width: 45px;
+    height: 45px;
+    background-position: -78px -257px;
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  .menu {
+    width: 240px;
+    height: 320px;
+    padding-top: 65px;
+    margin: 0 auto 15px;
+  }
+  .menu ul {
+    width: 160px;
+  }
+  .menu-main li {
+    height: 65px;
+    margin-bottom: 13px;
+  }
+  .menu-btns.btn-records {
+    background-position: 0 -69px;
+  }
+  .menu-btns.btn-about {
+    background-position: 0 -141px;
+  }
+  .menu-caption {
+    left: 50%;
+    top: 9px;
+    width: 110px;
+    height: 23px;
+    margin-left: -50px;
+  }
+  .menu.menu-records {
+    padding-top: 60px;
+  }
+  .menu-records li {
+    height: 14px;
+    font-size: 14px;
+    margin-bottom: 9px;
+  }
+  .menu-records .menu-caption {
+    background-position: 0 -25px;
+  }
+  .menu-about {
+    font-size: 20px;
+    padding: 55px 50px 0;
+  }
+  .menu-about ul {
+    width: 160px;
+  }
+  .menu-about ul li {
+    margin-bottom: 8px;
+    height: 25px;
+  }
+  .menu-about ul div {
+    width: 20px;
+    height: 20px;
+  }
+  .menu-about .menu-caption {
+    background-position: 0 -49px;
+  }
+  .menu-about .crystal-val-20 {
+    background-position: -20px 0;
+  }
+  .menu-about .crystal-val-30 {
+    background-position: -40px 0;
+  }
+  .menu-about .crystal-val-40 {
+    background-position: 0 20px;
+  }
+  .menu-about .crystal-val-50 {
+    background-position: -20px 20px;
+  }
+  .menu-about .crystal-val-60 {
+    background-position: -40px 20px;
+  }
+  .menu-about .text-monster div {
+    width: 68px;
+  }
+  .btn-back {
+    top: 284px;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    background-position: -19px -361px;
+  }
+  .btn-pause {
+    left: 5px;
+    top: 5px;
+    width: 35px;
+    height: 35px;
+    background-position: -61px -201px;
+  }
+  .pause-menu {
+    height: 90px;
+    width: 200px;
+  }
+  .btn-exit,
+  .btn-sound,
+  .btn-return {
+    width: 40px;
+    height: 39px;
+    margin-left: 20px;
+    margin-top: 36px;
+    background-position: -14px -224px;
+  }
+  .btn-sound {
+    background-position: -67px -283px;
+  }
+  .btn-exit {
+    background-position: -122px -224px;
+  }
+  .btn-sound.sound-off {
+    background-position: -122px -283px;
+  }
+  .btn-tap-jump {
+    width: 60px;
+    background-position: -78px -402px;
+  }
+  .btn-tap {
+    width: 60px;
+    background-position: -10px -402px;
+  }
+  .btn-tap-right {
+    background-position: -145px -402px;
+  }
+  .menu-level {
+    width: 280px;
+    height: 190px;
+  }
+  .level {
+    width: 39px;
+    height: 43px;
+  }
+  .level-1 {
+    top: 60px;
+    left: 28px;
+  }
+  .level-2 {
+    top: 60px;
+    left: 75px;
+  }
+  .menu-level .btn-back {
+    top: 158px;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  .btn-pause {
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background-position: -44px -143px;
+  }
+  .btn-tap-jump {
+    background-position: -63px -345px;
+    -webkit-background-size: 300%;
+    background-size: 300%;
+  }
+  .btn-tap {
+    background-position: -1px -345px;
+    -webkit-background-size: 300%;
+    background-size: 300%;
+  }
+  .btn-tap-right {
+    background-position: -124px -345px;
+  } 
+}

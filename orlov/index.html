@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Orlov</title>
+  <link href="style/style.css" rel="stylesheet">
+  <script src="script/jQuery.js"></script>
+</head>
+<body>
+<div id="menu" class="page">
+  <nav>
+    <ul class="options">
+      <li><a href="#about">
+        <img src="img/options-btn/about.png" alt="">
+      </a></li>
+      <li><a href="#game" onclick="draw()">
+        <img src="img/options-btn/game.png" alt="">
+      </a></li>
+      <li><a href="#records">
+        <img src="img/options-btn/records.png" alt="">
+      </a></li>
+    </ul>
+  </nav>
+</div>
+<div id="game" class="page">
+  <canvas id="myCanvas"></canvas>
+</div>
+<div id="records" class="page">
+  <div class="records">
+    <a href="#menu">
+      <img src="img/options-btn/menu.png" alt="">
+    </a>
+  </div>
+</div>
+<div id="about" class="page">
+  <div class="about">
+    <p>
+      Jump = Space<br>
+      Left = A<br>
+      Right = D
+    </p>
+    <a href="#menu">
+      <img src="img/options-btn/menu.png" alt="">
+    </a>
+  </div>
+</div>
+<script src="script/spa.js"></script>
+<script src="script/game.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("../img/bg.jpg") center;
+  background-size: 100%;
+}
+
+canvas {
+  border-radius: 10px;
+  border: 2px solid #a1dae6;
+}
+
+h1 {
+  margin-top: 83px;
+  margin-bottom: -1px;
+  font-family: Purisa, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: powderblue;
+  text-shadow: 1px 1px 1px white, 0 0 1em powderblue;
+}
+
+h2 {
+  font-family: Purisa, sans-serif;
+  font-size: 24px;
+  text-shadow: 1px 1px 1px white, 0 0 1em powderblue;
+}
+
+h2:hover, h3:hover {
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 14px;
+  font-family: Purisa, sans-serif;
+  margin-left: 16px;
+  z-index: -1;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  margin: 10px 2px;
+  border-radius: 10px;
+  height: 590px;
+  width: 600px;
+  background-color: rgba(0, 0, 0, .6);
+  color: powderblue;
+  z-index: 2;
+}
+
+hr {
+  width: 400px;
+  box-shadow: 1px 1px 1px white, 0 0 1em powderblue;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+#start {
+  display: flex;
+  font-family: Purisa, sans-serif;
+  align-items: center;
+  flex-direction: column;
+}
+
+#controlsBtn {
+  display: flex;
+  align-items: flex-end;
+  z-index: 0;
+  background: transparent;
+}
+
